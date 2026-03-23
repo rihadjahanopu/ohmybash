@@ -49,22 +49,22 @@ ohmybash/
 └── LICENSE         # MIT — use it freely
 ```
 
-# Emoji Font Install
+## Emoji Font Install
 
 ```bash
 sudo apt install fonts-noto-color-emoji
 ```
-# font Family Install
+## font Family Install
 
 ```bash
 sudo apt install fonts-firacode
 ```
-# Config File Open
+## Config File Open
 
 ```bash
 sudo nano /etc/fonts/local.conf
 ```
-# Past Config Code
+## Past Config Code
 
 ```xml
 <?xml version="1.0"?>
@@ -85,25 +85,25 @@ sudo nano /etc/fonts/local.conf
   </alias>
 </fontconfig>
 ```
-# Font Cache Relode
+## Font Cache Relode
 
 ```bash
 fc-cache -fv
 
 ```
-# Terminal Font Chack (Optional)
+## Terminal Font Chack (Optional)
 
 ```bash
 echo -e "LANG=en_US.UTF-8\nLC_ALL=en_US.UTF-8\nLANGUAGE=en_US" | sudo tee /etc/default/locale
 ```
-# Terminal Font Update For English
+## Terminal Font Update For English
 
 ```bash
 
 sudo locale-gen en_US.UTF-8
 sudo update-locale
 ```
-# Syestem Reboot
+## Syestem Reboot
 
 ```bash
 reboot
