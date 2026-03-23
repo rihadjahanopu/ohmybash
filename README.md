@@ -55,9 +55,12 @@ Beautiful, super-fast, safe & minimal Bash setup — made for modern developers<
 
 Run this in your terminal:
 
-```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/rihadjahanopu/ohmybash/main/install.sh)
+One-line install custom bashrc setup with safe config (Node, Bun friendly).
 
+## 🚀 Install
+
+```bash
+bash <(curl -fsSL https://gist.githubusercontent.com/rihadjahanopu/a1c286e48b3ecee1a207c759279e352c/raw/install.sh)
 ```
 ```
 ohmybash/
