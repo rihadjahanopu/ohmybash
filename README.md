@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<h1>ohmybash ⚡</h1>
+<h1>fancybash ⚡</h1>
 
 Open-source, Beautiful, super-fast, safe & minimal Bash setup — made for modern developers<br>
 (Node.js • Bun • clean prompt • zero drama)
