@@ -49,6 +49,68 @@ ohmybash/
 └── LICENSE         # MIT — use it freely
 ```
 
+# Emoji Font Install
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
+# font Family Install
+
+```bash
+sudo apt install fonts-firacode
+```
+# Config File Open
+
+```bash
+sudo nano /etc/fonts/local.conf
+```
+# Past Config Code
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+  <alias>
+    <family>monospace</family>
+    <prefer>
+      <family>Noto Color Emoji</family>
+    </prefer>
+  </alias>
+
+  <alias>
+    <family>sans-serif</family>
+    <prefer>
+      <family>Noto Color Emoji</family>
+    </prefer>
+  </alias>
+</fontconfig>
+```
+# Font Cache Relode
+
+```bash
+fc-cache -fv
+
+```
+# Terminal Font Chack (Optional)
+
+```bash
+echo -e "LANG=en_US.UTF-8\nLC_ALL=en_US.UTF-8\nLANGUAGE=en_US" | sudo tee /etc/default/locale
+```
+# Terminal Font Update For English
+
+```bash
+
+sudo locale-gen en_US.UTF-8
+sudo update-locale
+```
+# Syestem Reboot
+
+```bash
+reboot
+```
+
+
+
 
 That's all — back to your previous setup.
 
