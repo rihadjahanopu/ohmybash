@@ -1,7 +1,7 @@
 
 # ohmybash ⚡
 
-<img src="https://i.postimg.cc/cLgL4Ng8/Screenshot-deepin-terminal-20260319023449.png" alt="">
+<img src="https://i.postimg.cc/pXB6h98T/terminal2.png" alt="">
 
 
 One-line install custom bashrc setup with safe config (Node, Bun friendly).
