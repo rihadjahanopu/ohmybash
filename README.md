@@ -4,7 +4,7 @@
 
 <h1>ohmybash ⚡</h1>
 
-Beautiful, super-fast, safe & minimal Bash setup — made for modern developers<br>
+Open-source, Beautiful, super-fast, safe & minimal Bash setup — made for modern developers<br>
 (Node.js • Bun • clean prompt • zero drama)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
